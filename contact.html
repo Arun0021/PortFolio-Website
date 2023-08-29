@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio-Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <nav>
+          <ul>
+            <a href="/"><img class="logo" src="logo.png" alt="" /></a>
+            <li><a href="/">Home</a></li>
+            <li><a href="/intro.html">My Intro</a></li>
+            <li><a href="/services.html">Services</a></li>
+            <li><a href="/blog.html">Blog</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="main">
+        <div class="infoContainer-contact">
+          <div class="contactform">
+            <h1>Contact me for work/general Enquiries</h1>
+            <form>
+                <div class="form-group">
+                    <label for="clientname">Name</label>
+                    <input type="name" class="form-control" id="clientname" aria-describedby="emailHelp" placeholder="Enter name">
+                    <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email & phone-number with anyone else.</small> -->
+                  </div>
+                <div class="form-group">
+                  <label for="clientemail">Email address</label>
+                  <input type="email" class="form-control" id="clientemail" aria-describedby="emailHelp" placeholder="Enter email">
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your email & phone-number with anyone else.</small>
+                </div>
+                <!-- <div class="form-group">
+                  <label for="clientphone">Phone</label>
+                  <input type="phone" class="form-control" id="clientphone" placeholder="Enter password">
+                </div> -->
+                <div class="form-group">
+                    <label for="clientenquiry">Message</label>
+                    <input type="text" class="form-control" id="clientenquiry" aria-describedby="emailHelp" placeholder="Enter text">
+                    <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email & phone-number with anyone else.</small> -->
+                  </div>
+                <div class="form-group " id="form-check">
+                  <input type="checkbox" class="form-check-input" id="isclient">
+                  <label class="form-check-label" for="isclient">want to Hire</label>
+                </div>
+                
+                <button type="submit" class="btn btn-sm">Done</button>
+            
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
